@@ -1,23 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
 import './../styles/App.css';
-
-const Home = () => {
-  return (
-    <div>
-      <h1>Welcome to my website!</h1>
-    </div>
-  );
-};
-
-const About = () => {
-  return (
-    <div>
-      <h1>About</h1>
-      <p>This is a simple React Router program.</p>
-    </div>
-  );
-};
 
 const App = () => {
   return (
@@ -38,5 +23,6 @@ const App = () => {
     </Router>
   );
 }
+
 
 export default App;
